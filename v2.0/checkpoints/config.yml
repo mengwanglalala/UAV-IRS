@@ -1,0 +1,24 @@
+BATCH_SIZE: 128                  # batch size
+GPU: [0]                         # list of gpu ids
+
+gamma1: 1e-7                     # 用户最小SNR要求
+eta: 0.5                         # 能量吸收系数
+mu: 0.001                        # IRS元件的单位功耗
+N: 20                            # IRS元件个数
+M: 2
+
+rho: 0.8                         #反射面的反射率
+
+d_ref: 1                         # reference distance
+exponent_AU: 3.5                 # degradation exponent
+exponent_AI: 2                   # degradation exponent
+exponent_IU: 2.8                 # degradation exponent
+L0: 30                           # pass loss at the reference distance
+gain: 10
+Ld: 40                           # extra loss at direct link
+
+AP: [0, 0, 10]                    #AP坐标位置
+USER0: [13, -3, 0]                #user坐标位置
+USER1: [10, -5, 0]                #user坐标位置
+USER2: [12, 0, 0]                #user坐标位置
+
