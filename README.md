@@ -1,5 +1,6 @@
 # UAV-IRS
 UAV－IRS
+无人机携带IRS服务地面用户辅助通信任务，无人机轨迹优化使用DRL方法解决，IRS采用CVX包进行优化求解
 
 V0版本
 matlab与python混合编程（但是训练速度很慢）
